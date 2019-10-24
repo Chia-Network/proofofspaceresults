@@ -19,7 +19,7 @@ nemo1369/pos-track1 31879 seconds
 nemo1369/pos-track2 31968 seconds  
 nemo1369/pos-track3 38435 seconds (disqualified)  
 
-Pulmark/POS is by far the fastest thanks to using file mapping. Because file mapping leverages virtual memory that counted against his swap space. However, the entry isn't actually using more storage--it is just counted twice due to the file mapping. Congratulations to pulmark for submitting the winning entry of 25210 seconds and winning $25,000
+Pulmark/POS is by far the fastest thanks to using file mapping. Because file mapping leverages virtual memory that added additional swap space. However, the entry isn't actually using more storage--it is just counted twice due to the file mapping. Congratulations to pulmark for submitting the winning entry of 25210 seconds and winning $25,000
 
 ## The first prize winner of Track 2 (smallest swap) will receive $25k
 
@@ -30,11 +30,11 @@ pulmark/POS2 178373 MB
 nemo1369/pos-track1 178433 MB  
 pulmark/POS 343191 MB  
 
-Because it used a Hellman attack, nemo1369/pos-track3 used less swap space than all the other entries, but again was disqualified because of a slow proof time. nemo1369/pos-track2 still had enough optimizations to allow it to place next resulting in nemo1369 winning smallest swap and $25,000
+Because it used a Hellman attack, nemo1369/pos-track3 used less swap space than all the other entries, but again was disqualified because of a slow proof time. nemo1369/pos-track2 still placed next resulting in nemo1369 winning smallest swap and $25,000
 
 ## The first prize winner of Track 3 (smallest plot) will receive $50k
 
-nemo1369/pos-track3 22251 MB   
+nemo1369/pos-track3 22251 MB (disqualified)  
 reference 25565 MB  
 pulmark/POS 25565 MB  
 pulmark/POS2 25565 MB  
