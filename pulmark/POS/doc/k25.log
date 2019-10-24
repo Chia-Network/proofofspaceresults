@@ -1,0 +1,181 @@
+Generating plot for k=25 filename=plot.dat id=022fb42c08c12de3a6af053880199806532e79515f94e83461612101f9412f9e
+
+Starting plotting progress into file plot.dat.
+Memo: 0102030405
+ID: 022fb42c08c12de3a6af053880199806532e79515f94e83461612101f9412f9e
+Plot size is: 25
+Max workspace is: 4.5 GB
+Initial workspace file: plot.dat.tmp, size: 4831839361
+Filesystem free space: 257394798592
+
+Starting phase 1/4: Forward Propagation...
+WriteHeader:: 151 bytes
+Computing table 1
+F1 complete, Time =  4.521 seconds. CPU (99.98%)
+Computing table 2 at 0xe00009e
+	Sorting table 1 at 0x97 using spare at 0xe00009e
+	Sort time: 2.797 seconds. CPU (99.96%)
+	Total matches: 33549025. Per bucket: 954.194
+	Computation pass time: 23.832 seconds. CPU (94.62%)
+Forward propagation table time: 26.629 seconds. CPU (95.18%)
+Computing table 3 at 0x2bfec3dc
+	Sorting table 2 at 0xe00009e using spare at 0x2bfec3dc
+	Sort time: 3.191 seconds. CPU (98.46%)
+	Total matches: 33542321. Per bucket: 954.003
+	Computation pass time: 25.93 seconds. CPU (89.77%)
+Forward propagation table time: 29.122 seconds. CPU (90.72%)
+Computing table 4 at 0x55fae276
+	Sorting table 3 at 0x2bfec3dc using spare at 0x55fae276
+	Sort time: 3.498 seconds. CPU (100.01%)
+	Total matches: 33521382. Per bucket: 953.408
+	Computation pass time: 24.367 seconds. CPU (93.94%)
+Forward propagation table time: 27.866 seconds. CPU (94.7%)
+Computing table 5 at 0x7ff04b69
+	Sorting table 4 at 0x55fae276 using spare at 0x7ff04b69
+	Sort time: 3.393 seconds. CPU (100%)
+	Total matches: 33479330. Per bucket: 952.212
+	Computation pass time: 25.491 seconds. CPU (90.77%)
+Forward propagation table time: 28.884 seconds. CPU (91.86%)
+Computing table 6 at 0xa3dbaadf
+	Sorting table 5 at 0x7ff04b69 using spare at 0xa3dbaadf
+	Sort time: 3.292 seconds. CPU (99.99%)
+	Total matches: 33405462. Per bucket: 950.111
+	Computation pass time: 22.48 seconds. CPU (99.76%)
+Forward propagation table time: 25.772 seconds. CPU (99.79%)
+Computing table 7 at 0xc1b99238
+	Sorting table 6 at 0xa3dbaadf using spare at 0xc1b99238
+	Sort time: 2.994 seconds. CPU (100.02%)
+	Total matches: 33251891. Per bucket: 945.743
+	Computation pass time: 24.517 seconds. CPU (91.74%)
+Forward propagation table time: 27.512 seconds. CPU (92.64%)
+
+Plot tables (begin, entry-len, entry-count, size): 
+	Table 1: [0x97, 7, 33554433, 234881031]
+	Table 2: [0xe00009e, 15, 33549026, 503235390]
+	Table 3: [0x2bfec3dc, 21, 33542322, 704388762]
+	Table 4: [0x55fae276, 21, 33521383, 703949043]
+	Table 5: [0x7ff04b69, 18, 33479331, 602627958]
+	Table 6: [0xa3dbaadf, 15, 33405463, 501081945]
+	Table 7: [0xc1b99238, 10, 33251892, 332518920]
+	Table 8: [0xd58b6840, 0, 0, 0]
+Time for phase 1 = 170.31 seconds. CPU (94.19%)
+
+Starting phase 2/4: Backpropagation...
+Backpropagating on table 7
+	Table 6 wrote 28842866 entries
+	Computation pass time: 7.832 seconds. CPU (97.89%)
+Total backpropagation time:: 7.832 seconds. CPU (97.89%)
+Backpropagating on table 6
+	Sorting table 6 0xa3dbaadf
+	Sort time: 4.036 seconds. CPU (99.95%)
+	Table 5 wrote 27500241 entries
+	Computation pass time: 6.6 seconds. CPU (99.97%)
+Total backpropagation time:: 10.637 seconds. CPU (99.95%)
+Backpropagating on table 5
+	Sorting table 5 0x7ff04b69
+	Sort time: 3.302 seconds. CPU (99.99%)
+	Table 4 wrote 27022760 entries
+	Computation pass time: 7.079 seconds. CPU (95.49%)
+Total backpropagation time:: 10.382 seconds. CPU (96.92%)
+Backpropagating on table 4
+	Sorting table 4 0x55fae276
+	Sort time: 3.222 seconds. CPU (99.99%)
+	Table 3 wrote 26845477 entries
+	Computation pass time: 6.67 seconds. CPU (98.49%)
+Total backpropagation time:: 9.893 seconds. CPU (98.97%)
+Backpropagating on table 3
+	Sorting table 3 0x2bfec3dc
+	Sort time: 3.082 seconds. CPU (99.97%)
+	Table 2 wrote 26779382 entries
+	Computation pass time: 6.991 seconds. CPU (95.59%)
+Total backpropagation time:: 10.074 seconds. CPU (96.92%)
+Backpropagating on table 2
+	Sorting table 2 0xe00009e
+	Sort time: 3.552 seconds. CPU (91.6%)
+	Table 1 wrote 26755294 entries
+	Computation pass time: 5.396 seconds. CPU (99.99%)
+Total backpropagation time:: 8.948 seconds. CPU (96.66%)
+Time for phase 2 = 57.768 seconds. CPU (97.92%)
+
+Starting phase 3/4: Compression...
+WriteHeader:: 151 bytes
+Compressing tables 1 and 2
+	First computation pass time: 3.464 seconds. CPU (99.99%)
+	Sorting table 2 0xe00009e
+	Sort time: 6.52 seconds. CPU (99.99%)
+	Wrote 26779381 entries
+	Second computation pass time: 2.814 seconds. CPU (100.02%)
+	Re-Sorting table 2 0xe00009e
+	Sort time: 1.75 seconds. CPU (100.01%)
+Total compress table time: 14.549 seconds. CPU (99.99%)
+Compressing tables 2 and 3
+	First computation pass time: 3.879 seconds. CPU (100.01%)
+	Sorting table 3 0x2bfec3dc
+	Sort time: 6.506 seconds. CPU (99.96%)
+	Wrote 26845476 entries
+	Second computation pass time: 2.687 seconds. CPU (100%)
+	Re-Sorting table 3 0x2bfec3dc
+	Sort time: 1.662 seconds. CPU (99.99%)
+Total compress table time: 14.735 seconds. CPU (99.98%)
+Compressing tables 3 and 4
+	First computation pass time: 4.424 seconds. CPU (92.47%)
+	Sorting table 4 0x55fae276
+	Sort time: 6.724 seconds. CPU (100%)
+	Wrote 27022759 entries
+	Second computation pass time: 2.726 seconds. CPU (99.99%)
+	Re-Sorting table 4 0x55fae276
+	Sort time: 1.651 seconds. CPU (100.01%)
+Total compress table time: 15.528 seconds. CPU (97.84%)
+Compressing tables 4 and 5
+	First computation pass time: 3.947 seconds. CPU (100%)
+	Sorting table 5 0x7ff04b69
+	Sort time: 6.878 seconds. CPU (99.99%)
+	Wrote 27500240 entries
+	Second computation pass time: 2.737 seconds. CPU (100.01%)
+	Re-Sorting table 5 0x7ff04b69
+	Sort time: 1.684 seconds. CPU (99.98%)
+Total compress table time: 15.248 seconds. CPU (99.98%)
+Compressing tables 5 and 6
+	First computation pass time: 4.095 seconds. CPU (99.97%)
+	Sorting table 6 0xa3dbaadf
+	Sort time: 7.099 seconds. CPU (99.96%)
+	Wrote 28842865 entries
+	Second computation pass time: 3.564 seconds. CPU (91.36%)
+	Re-Sorting table 6 0xa3dbaadf
+	Sort time: 2.309 seconds. CPU (87.31%)
+Total compress table time: 17.069 seconds. CPU (96.44%)
+Compressing tables 6 and 7
+	First computation pass time: 4.636 seconds. CPU (99.99%)
+	Sorting table 7 0xc1b99238
+	Sort time: 8.129 seconds. CPU (100%)
+	Wrote 33251891 entries
+	Second computation pass time: 3.355 seconds. CPU (100.01%)
+	Re-Sorting table 7 0xc1b99238
+	Sort time: 3.693 seconds. CPU (87.71%)
+Total compress table time: 19.814 seconds. CPU (97.7%)
+Time for phase 3 = 96.945 seconds. CPU (98.55%)
+
+Starting phase 4/4: Write Checkpoint tables...
+	Starting to write C1 and C3 tables
+	 * Writing C1 & C3 tables:  1998.076 ms, CPU (99.96 %)
+	Finished writing C1 and C3 tables
+	Writing C2 table
+	Finished writing C2 table
+	Final table pointers:
+	P1: 0x97
+	P2: 0x582a2ef
+	P3: 0xa9d6a78
+	P4: 0xfc0c4af
+	P5: 0x14fb58f3
+	P6: 0x1a775207
+	P7: 0x20c9eaa8
+	C1: 0x273afca8
+	C2: 0x273b30a4
+	C3: 0x273b30ac
+Time for phase 4 = 1.998 seconds. CPU (99.96%)
+
+Approximate working space used: 3.33663 GB
+Final file size: 0.62228 GB
+Total time = 327.023 seconds. CPU (96.17%)
+Virtual memory used: 6.514 GB
+Physical memory used: 5.349 GB
